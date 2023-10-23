@@ -41,6 +41,7 @@ const prefix = `
     <div class ="dive sticky">
         
 `;
+
 /*
 <a href="/PrinciplesWebsite2022/index.html" class="button">Home</a>
         <a href="/PrinciplesWebsite2022/portfolio.html" class="button">Portfolio</a>
@@ -49,7 +50,7 @@ const prefix = `
 */
 
 function prepareLink(link, name) {
-    return "<a href=" + link + "class=\"button\">" + name + "</a>"
+    return "<a href=\"" + link + "\" class=\"button\">" + name + "</a>"
 }
 
 function linkAll() {
